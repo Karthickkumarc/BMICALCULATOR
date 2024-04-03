@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #535c68;
+}
+.data-container{
+    background-color: white;
+    width:800px;
+    height:500px;
+    padding:10px;
+    box-shadow:0px 4px 8px rgba(255,255,255,0.2);
+    border-radius: 8px;
+    display: flex;
+}
+.data{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.data img{
+   
+    
+    width:350px;}
+    h1{
+        margin-left:30px;
+        margin-bottom:10px
+    }
+
+    .height,.weight{
+        display:flex;
+        flex-direction: column;
+       margin-top:10px
+    }
+    .height{
+        margin-top:50px;
+    }
+    .height label ,.weight label{
+        color:gray;
+        margin-bottom:10px;
+        font-size:20px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .height input ,.weight input{
+        line-height: 30px;
+        border:2px solid khaki;
+        border-radius: 8px;
+      
+    }
+    .height input[type=text] ,.weight input[type=text] {
+       padding-left:10px;
+       color:#535c68;
+       font-size: 16px;
+    }
+    button{
+        margin:28px 10px 10px 2%;
+        line-height: 30px;
+        padding:5px;
+        width:100px;
+        background-color:#2980b9;
+        border-radius:8px;
+        border:2px solid white;
+    }
+    .result{
+        margin-top:30px;
+        border:2px solid blue;
+        padding:20px;
+    }
+    .error{
+        color:red;
+        padding-left:5px;
+    }
